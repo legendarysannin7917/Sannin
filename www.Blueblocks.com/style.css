@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper{
+	background: url(img/Background.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+}
+
+.logo{
+	width: 80px;
+	height: auto;
+	padding: 0px 20px;
+}
+
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+
+.navbar ul li{
+	list-style: none;
+	margin: 0px 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+
+.wrapper .center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+
+.center h1{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	width: 900px;
+	text-align: center;
+}
+
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	width: 885px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.center .buttons{
+	margin: 35px 280px;
+}
+
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffb3b3;
+	background: red;
+	border: 1px solid #cc0000;
+	ouline: none;
+	cursor: pointer;
+	border-radius: 25px;
+}
+
+.buttons .button-btn-2{
+	position: absolute;
+	top: 318px;
+	margin-left: 180px;
+}
+
+.buttons button:hover{
+	background: #cc0000;
+}
+
+/*login Admin style*/
+.wrapper-loginadmin{
+	width:500px;
+	margin: 0 auto;
+	background:white;
+	padding:0px;	
+}
+
+.myform-loginadmin{
+	width:450px;
+	margin:0 auto;
+}
+
+.inputadmin{
+	width:430px;
+	margin:0 auto;
+	padding:5px;
+}
+
+/*login client style*/
+.wrapper-loginclient{
+	width:500px;
+	margin: 0 auto;
+	background:white;
+	padding:0px;	
+}
+
+.myform-loginclient{
+	width:450px;
+	margin:0 auto;
+}
+
+.inputclient{
+	width:430px;
+	margin:0 auto;
+	padding:5px;
+}
+/*Download Area*/
+.exploitpic {
+	width: 350px;
+	height: auto;
+	padding: 0px 20px;
+} 
+
+.downloadexploit {
+	position: absolute;
+	left: 35px;
+	top: 370px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.titleexploit {
+	padding: 0px 20px;
+}
+/*Verify client*/
+.wrapper-verifyclient{
+	width:500px;
+	margin: 0 auto;
+	background:white;
+	padding:0px;	
+}
+
+.myform-verifyclient{
+	width:450px;
+	margin:0 auto;
+}
+
+.verifyclient{
+	width:430px;
+	margin:0 auto;
+	padding:5px;
+}
+
+
+
+
+
+
