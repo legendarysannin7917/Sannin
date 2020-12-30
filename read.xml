@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<videos name="Dota 2">
+		<linkimage>https://i.ytimg.com/vi/MyMmB7vnO9c/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAbsYBUJr-p-lyB90YNor2j4k3vUw</linkimage>
+		<linkvideo>http://s42.filefactory.com/get/f/580hq24id9h8/35fe56bc0f606208/Dota_2.mp4</linkvideo>
+		<title>Dota 2</title>	
+	</videos>
+	<videos name="Music">
+		<linkimage>https://i.ytimg.com/vi/MyMmB7vnO9c/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAbsYBUJr-p-lyB90YNor2j4k3vUw</linkimage>
+		<linkvideo>https://download1491.mediafire.com/c5fcv3l3sbjg/dyhh7uz65uae3am/music1.mp4</linkvideo>
+		<title>Music 1</title>
+	</videos>
+	<videos name="Franco">
+		<linkimage>https://i.ytimg.com/vi/MyMmB7vnO9c/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAbsYBUJr-p-lyB90YNor2j4k3vUw</linkimage>
+		<linkvideo>Franco hook wtf 1.mp4</linkvideo>	
+		<title>Franco hook wtf 1</title>		
+	</videos>
+</root>
