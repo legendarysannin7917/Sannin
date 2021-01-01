@@ -76,7 +76,7 @@ function buildVideoList(){
 							playimage.setAttribute('name', 'playbtn');
 							playimage.setAttribute('id', 'playbtn');
 							playimage.setAttribute('src', '../img/play.png');
-							playimage.setAttribute('onclick', "playVideo('"+ videoXmlNode.children[1].innerHTML +"')");
+							playimage.setAttribute('onclick', "playVideo('https://drive.google.com/uc?export=download&id="+videoXmlNode.children[1].innerHTML+"')");
 							document.getElementById(i+"feature-img").appendChild(playimage);
 							
 						let videotitle = document.createElement("p");
@@ -110,7 +110,7 @@ function buildVideoList(){
 							playimage.setAttribute('name', 'playbtn');
 							playimage.setAttribute('id', 'playbtn');
 							playimage.setAttribute('src', '../img/play.png');
-							playimage.setAttribute('onclick', "playVideo('"+ videoXmlNode.children[1].innerHTML +"')");
+							playimage.setAttribute('onclick', "playVideo('https://drive.google.com/uc?export=download&id="+ videoXmlNode.children[1].innerHTML +"')");
 							document.getElementById(i+"feature-img").appendChild(playimage);
 							
 						let videotitle = document.createElement("p");
@@ -144,7 +144,7 @@ function buildVideoList(){
 							playimage.setAttribute('name', 'playbtn');
 							playimage.setAttribute('id', 'playbtn');
 							playimage.setAttribute('src', '../img/play.png');
-							playimage.setAttribute('onclick', "playVideo('"+ videoXmlNode.children[1].innerHTML +"')");
+							playimage.setAttribute('onclick', "playVideo('https://drive.google.com/uc?export=download&id="+ videoXmlNode.children[1].innerHTML +"')");
 							document.getElementById(i+"feature-img").appendChild(playimage);
 							
 						let videotitle = document.createElement("p");
